@@ -1,0 +1,43 @@
+  html {
+    background-color: green;
+  }
+  h1{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #intro{
+    color: brown;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+  }
+  body{
+    padding: 50px;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50px;
+  }
+  #profile{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+  p{
+    font-family: Times New 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  address{
+    color: white;
+    font-size: 20px;
+  }
+  ol{
+    color: yellow;
+  }
