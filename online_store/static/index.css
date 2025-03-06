@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1.6em;
+    margin: 0;
+    background-color: magenta;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: firebrick;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 20px;
+}
+h2{
+    color: white;
+    width: 100%;
+    margin-left: 20%;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+.goals{
+    background-color: grey;
+    width: 80%;
+    margin: auto;
+    border: 2px red solid;
+    border-radius: 15px;
+}
+.goals h3{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+}
+.goals p{
+    color: burlywood;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.goals ul{
+    list-style: none;
+    letter-spacing: 0.2em;
+    margin-left: 2%;
+    color: whitesmoke;
+}
+.resolutions{
+    background-color: green;
+    width: 80%;
+    margin: auto;
+}
+.resolutions h3{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+}
+.resolutions p{
+    color: black;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resolutions ul{
+    letter-spacing: 0.1em;
+    margin-left: 5%;
+    color: cornflowerblue;
+}
+#quote{
+    text-align: center;
+    color: green;
+    background-color: white;
+    padding: 10px 0;
+}
+.highlight {
+    color: #ff4500; /* Orange-red color */
+    font-weight: bold; /* Make it bold for emphasis */
+    font-style: italic;
+  }
+  

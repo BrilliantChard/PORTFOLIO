@@ -1,0 +1,122 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Headings-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Website</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}" />
+    <link rel="stylesheet" href="{% static 'form.css' %}" />
+    <link rel="stylesheet" href="{% static 'footer.css' %}" />
+  </head>
+  <body>
+    <!--Body-->
+    <header><h1>My Website</h1></header>
+    <p>A general blog showing my excitement back to Web programming</p>
+    <main>
+      <section>
+        <header><h2>Back to Web Design</h2></header>
+      </section>
+      <p>
+        After a long time out of design work, I'm back with a banger<br />See
+        you in this journey!
+      </p>
+      <p id="quote">
+        "The journey of a Thousand miles starts with a single step"
+      </p>
+      <section class="goals">
+        <header><h3>My goals</h3></header>
+        <p>My goals in this journey are:</p>
+        <ul>
+          <li>Determintion</li>
+          <li>Discipline</li>
+          <li>Hard work</li>
+          <li>Abject Motivation</li>
+        </ul>
+        <p id="quote">
+          "Your excuses are valid, but they won't get you the result you want" ~
+          Vusi Thembekwayo
+        </p>
+      </section>
+      <form class="form">
+        <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <!--
+        <div class="form-group">
+          <label for="">Email</label>
+          <input type="text" name="Email" required />
+        </div>-->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+          <span class="error-message" style="color: red; display: none"
+            >Input email</span
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="">Message: </label>
+          <textarea name="Message" id="message" required></textarea>
+        </div>
+        <input class="button" type="submit" value="submit" name="" />
+      </form>
+      <section class="resolutions">
+        <header><h3>New Month Resolutions</h3></header>
+        <p>
+          They say: "New Year New Things", but I say: "New Month, New Strategies
+          and a new Thinking."
+        </p>
+        <br />
+        <p>My New month, <i>for all the months</i>, resolutions are:</p>
+        <ul>
+          <li>
+            Quiting or Little time allocated to social media activities and book
+            reading taking over
+          </li>
+          <li>
+            Focus on my life and my goals alone and alone: Nothing more and
+            nothing less
+          </li>
+          <li>
+            Thinking about projects for the future: With the aim of becoming
+            <u>self-employed</u>
+          </li>
+          <li>Practice being silent and a ghost</li>
+          <li>
+            Opening my X account once in a week: Only on Sunday to give me ample
+            time to focus on serious businesses.
+          </li>
+        </ul>
+      </section>
+      <p id="quote">
+        "Hardwork beats talent everyday of the week and the best time to plant a
+        tree is <span class="highlight">NOW</span>."
+      </p>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <img src="/static/IMAGES/chard.jpg" alt="Chard's photo" />
+        <div class="footer-text">
+          <p>
+            Contact me at:
+            <a href="mailto:chard.omollo25@gmail.com"
+              >chard.omollo25@gmail.com</a
+            >
+            | | +254797394105
+          </p>
+          <p>&copy; 2025 Chard Odhiambo. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
